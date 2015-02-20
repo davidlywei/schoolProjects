@@ -120,17 +120,6 @@ class LinkedList
 		
 		/***************************************************************
 			
-			Function Name:	
-		
-			Purpose:		
-			
-			Parameters:		
-		
-		***************************************************************/
-		//void appendList(NodeType<Type>* c);
-		
-		/***************************************************************
-			
 			Function Name:	print
 		
 			Purpose:		Prints the linked list Iteratively

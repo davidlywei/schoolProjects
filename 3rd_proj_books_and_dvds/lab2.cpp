@@ -31,7 +31,7 @@ using namespace std;
 
 const int BUFFER_LEN = 1000;
 
-const char INVENTORY_LIST[] = "c:/Users/david/Desktop/cis22c_testfiles/Inventory.csv";
+const char INVENTORY_LIST[] = "Inventory.csv";
 
 //***************************************************************************************
 // Classes
@@ -73,8 +73,6 @@ int main()
 	SinglyLLN<Book>* bookPtr = bookList.getHead();
 	SinglyLLN<Dvd>* dvdPtr = dvdList.getHead();
 	
-	LinkedList* lptr = &bookList;
-
 
 	// Insert the Book and Dvd lists into the item list
 	// --- Loop through Book List and insert.
